@@ -1,0 +1,113 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #4B4B5A;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+img{
+    display: block;
+    border-radius: 50%;
+    width: 100%;
+}
+/* ul{
+    list-style: none;
+} */
+a{
+    text-decoration: none;
+    color: #4B4B5A;
+}
+.main{
+    display: flex;
+    width: 1000px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    background-color: #f1ecec;
+}
+.sidebar{
+    background-color: #cac8c8;
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 185px 185px 0 0;
+}
+.contact_list{
+    padding: 0;
+}
+.contact_item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact_item:not(:last-child){
+    margin-bottom: 10px;
+}
+.contact_icons{
+    width: 40px;
+    height: 40px;
+    background-color: #4B4B5A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_link{
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+   
+}
+.icon_link:hover{
+    transform: scale(1.1);
+}
+.icon-text_link{
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+   
+}
+.icon-text_link:hover{
+    color: #9e6729;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #4B4B5A;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.main_title{
+    font-size: 65px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.main-info{
+    padding: 10px;
+    padding-left: 35px;
+}
+.title_work{
+    font-size: 36px;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.about_me{
+    line-height: 1.7;
+}
+.project_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1;
+}
+.my_work{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    /* gap: 15px; */
+}
+.project_title{
+    font-size: 24px;
+    text-decoration: underline;
+}
