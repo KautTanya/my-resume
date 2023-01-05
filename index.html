@@ -18,22 +18,10 @@
     <main class="main">
 <aside class="sidebar">
     <div>
-        <picture>
-            <!-- <source
-              srcset="./img/photo_1.jpg 1x, ./img/photo_1.jpg 2x"
-              type="image/jpg"
-              media="(max-width: 699.9px)"
-            />
-            <source
-              srcset="./img/photo.jpg 1x, ./img/photo.jpg 2x"
-              type="image/jpg"
-              media="(min-width: 700px)"
-            /> -->
-            <img src="./img/photo.jpg" alt="my-photo" />
-          </picture>
+         <img src="./img/photo.jpg" alt="my-photo" />
 
           <section class="contact">
-            <h2 class="title">Contact Me</h2>
+            <h2 class="title">Contacts</h2>
             <ul class="contact_list">
                 <li class="contact_item">
                     <div class="contact_icons">
@@ -83,6 +71,7 @@
             <ul class="tech-skills">
                 <li>HTML5</li>
                 <li>CSS3</li>
+                <li>SASS</li>
                 <li>GIT</li>
                 <li>JavaScript</li>
                 <li>WebPack*</li>
@@ -121,15 +110,16 @@
     <section>
         <h1 class="main_title">Tanya Kaut</h1>
         <h3 class="title_work">Junior Frontend Developer</h3>
-        <p class="about_me">I am a Junior Front End developer. I focus on
-            HTML5, CSS3, JS, React. Development,
-            practice and work for the result are important for
-            me. 
+        <p class="about_me">For a long time, I worked at a school, where I brought up 
+            many good qualities in myself. Stress resistance, multitasking, 
+            attentiveness, ability to work in a team, accuracy, ability to 
+            work with documents, ability to organize work and own time. 
+  
         </p>
-        <p>For a long time, I worked at a school, where I brought up 
-                many good qualities in myself. Stress resistance, multitasking, 
-                attentiveness, ability to work in a team, accuracy, ability to 
-                work with documents, ability to organize work and own time. </p>
+        <p>I studied a lot during the last year. Now, I am a Junior Front End developer. 
+            I fell in love with this field of activity!) I can spend hours coding without noticing the 
+            time passing by. And, I like it! 
+             </p>
            <p>
             I am a fast learner, responsible, and ready to work! 
             And most importantly, I can and I want to work!
@@ -137,66 +127,76 @@
     </section>
     <section>
         <h2 class="title">Project Experience</h2>
-        <h4 class="project_title">Solo-projects</h4>
-        <ul class="project_list">
-            <li class="project_item">
+         <ul class="project_list">
+            <li>
+                <div class="project_item">
+                    <div class="my_work">
+                        <a class="icon-text_link" href="https://kauttanya.github.io/goit-markup-hw-08/">&#9679; WebStudio</a>
+                        <a class="icon_link" href="https://github.com/KautTanya/goit-markup-hw-08"> 
+                            <div class="contact_icons">
+                                <svg width="30" height="30">
+                                    <use href ="img/symbol-defs.svg#icon-github"></use>
+                                </svg>
+                            </div>
+                    </a>
+                    </div>
+                    <p>[HTML, SASS]</p>
+                </div>
+                <p class="project_text">(Solo-project. Webside with responsive layout.)</p>
+            </li>
+      
+            <li>
+              <div class="project_item">
                 <div class="my_work">
-                    <a class="icon-text_link" href="https://kauttanya.github.io/goit-markup-hw-08/">&#9679; WebStudio</a>
-                    <a class="icon_link" href="https://github.com/KautTanya/goit-markup-hw-08"> 
+                    <a class="icon-text_link" href="https://vladaboiko.github.io/Ice-Cream/">&#9679; Ice-cream</a>
+                    <a class="icon_link" href="https://github.com/VladaBoiko/Ice-Cream">
                         <div class="contact_icons">
                             <svg width="30" height="30">
                                 <use href ="img/symbol-defs.svg#icon-github"></use>
                             </svg>
                         </div>
-                </a>
-                </div>
-                <p>[HTML+CSS]</p>
+                    </a>
+                   </div>
+                    <p>[HTML, SASS]</p>
+              </div>
+              <p class="project_text">(Team-project. Webside with responsive layout {footer})</p>
             </li>
-        </ul>
-        <h4 class="project_title">Team-projects</h4>
-        <ul class="project_list">
-            <li class="project_item">
-               <div class="my_work">
-                <a class="icon-text_link" href="https://vladaboiko.github.io/Ice-Cream/">&#9679; Ice-cream</a>
-                <a class="icon_link" href="https://github.com/VladaBoiko/Ice-Cream">
-                    <div class="contact_icons">
-                        <svg width="30" height="30">
-                            <use href ="img/symbol-defs.svg#icon-github"></use>
-                        </svg>
-                    </div>
-                </a>
+            <li>
+               <div class="project_item">
+                <div class="my_work">
+                    <a class="icon-text_link" href="https://vladaboiko.github.io/Psychology/">&#9679; Psychology</a>
+                    <a class="icon_link" href="https://github.com/VladaBoiko/Psychology">
+                        <div class="contact_icons">
+                            <svg width="30" height="30">
+                                <use href ="img/symbol-defs.svg#icon-github"></use>
+                            </svg>
+                        </div>
+                    </a>
+                   </div>
+                    <p>[HTML, SASS, JS]</p>
                </div>
-                <p>[HTML+CSS]</p>
-            </li>
-            <li class="project_item">
-               <div class="my_work">
-                <a class="icon-text_link" href="https://vladaboiko.github.io/Psychology/">&#9679; Psychology</a>
-                <a class="icon_link" href="https://github.com/VladaBoiko/Psychology">
-                    <div class="contact_icons">
-                        <svg width="30" height="30">
-                            <use href ="img/symbol-defs.svg#icon-github"></use>
-                        </svg>
-                    </div>
-                </a>
-               </div>
-                <p>[HTML+CSS+JS]</p>
+               <p class="project_text">(Team-project. Webside with responsive layout {section-services})</p>
             </li>
     
-            <li class="project_item">
-                <div class="my_work">
-                    <a class="icon-text_link" href="https://vladaboiko.github.io/Flowers/">&#9679; Flowers</a>
-                    <a class="icon_link" href="https://github.com/VladaBoiko/Flowers">
-                    <div class="contact_icons">
-                        <svg width="30" height="30">
-                            <use href ="img/symbol-defs.svg#icon-github"></use>
-                        </svg>
+            <li>
+                <div class="project_item">
+                    <div class="my_work">
+                        <a class="icon-text_link" href="https://vladaboiko.github.io/Flowers/">&#9679; Flowers</a>
+                        <a class="icon_link" href="https://github.com/VladaBoiko/Flowers">
+                        <div class="contact_icons">
+                            <svg width="30" height="30">
+                                <use href ="img/symbol-defs.svg#icon-github"></use>
+                            </svg>
+                        </div>
+                    </a>
                     </div>
-                </a>
+                    <p>[HTML, SASS, JS]]</p>
                 </div>
-                <p>[HTML+CSS+JS]</p>
+                <p class="project_text">(Team-project. Webside with responsive layout {footer, map, section-about_shop, organization, contacts})</p>
             </li>
-            <li class="project_item">
-               <div class="my_work"> 
+            <li>
+               <div class="project_item">
+                <div class="my_work"> 
                     <a class="icon-text_link" href="https://vladaboiko.github.io/filmoteca/">&#9679; Filmoteca</a>
                     <a class="icon_link" href="https://github.com/VladaBoiko/filmoteca"> 
                         <div class="contact_icons">
@@ -206,14 +206,66 @@
                         </div>
                     </a>
                 </div>
-                <p>[HTML+CSS+JS]</p>
+                <p>[HTML, SASS, JS]]</p>
+               </div>
+               <p class="project_text">(Team-project. Webside with responsive layout, application for searching a movie with user authorization.)</p>
             </li>
+            <li>
+                <div class="project_item">
+                 <div class="my_work"> 
+                     <a class="icon-text_link" href="https://github.com/KautTanya/goit-react-hw-04-images">&#9679; Search-Images</a>
+                     <a class="icon_link" href="https://kauttanya.github.io/goit-react-hw-04-images/"> 
+                         <div class="contact_icons">
+                             <svg width="30" height="30">
+                                 <use href ="img/symbol-defs.svg#icon-github"></use>
+                             </svg>
+                         </div>
+                     </a>
+                 </div>
+                 <p>[HTML, CSS, React]</p>
+                </div>
+                <p class="project_text">(Solo-project. Application for searching images)</p>
+             </li>
+             <li>
+                <div class="project_item">
+                 <div class="my_work"> 
+                     <a class="icon-text_link" href="https://github.com/KautTanya/goit-react-hw-06-phonebook">&#9679; PhoneBook</a>
+                     <a class="icon_link" href="https://kauttanya.github.io/goit-react-hw-06-phonebook/"> 
+                         <div class="contact_icons">
+                             <svg width="30" height="30">
+                                 <use href ="img/symbol-defs.svg#icon-github"></use>
+                             </svg>
+                         </div>
+                     </a>
+                 </div>
+                 <p>[HTML, CSS, React]</p>
+                </div>
+                <p class="project_text">(Solo-project. Application for storing, searching and deleting contacts)</p>
+             </li>
+             <li>
+                <div class="project_item">
+                 <div class="my_work"> 
+                     <a class="icon-text_link" href="https://github.com/KautTanya/goit-react-hw-05-movies">&#9679; Movies</a>
+                     <a class="icon_link" href="https://kauttanya.github.io/goit-react-hw-05-movies"> 
+                         <div class="contact_icons">
+                             <svg width="30" height="30">
+                                 <use href ="img/symbol-defs.svg#icon-github"></use>
+                             </svg>
+                         </div>
+                     </a>
+                 </div>
+                 <p>[HTML, CSS, React]</p>
+                </div>
+                <p class="project_text">(Solo-project. Application for searching a movie)</p>
+             </li>
         </ul>
     </section>
     <section>
         <h2 class="title">Work Experience</h2>
-        <p>2014 - up to now</p>
+      <div class="block">
         <p>Teacher of Mathematics</p>
+        <p>2014 - up to now</p>
+      </div>
         <ul>
             <li>Communication with chilldren and their parents</li>
             <li>Task planning and monitoring for a group of 25 pupils </li>
@@ -224,13 +276,17 @@
         <h2 class="title">Education</h2>
         <ul>
             <li>
-                <p>2022-2023</p>
-                <p>IT School GoIT</p>
+                <div class="block">
+                    <p>IT School GoIT</p>
+                    <p>2022-2023</p>
+                </div>
                 <p>Fullstack Developer</p>
             </li>
             <li>
-                <p>2012-2016</p>
-                <p>H.S. Skovoroda Kharkiv National Pedagogical University</p>
+                <div class="block">
+                    <p>H.S. Skovoroda Kharkiv National Pedagogical University</p>
+                    <p>2012-2016</p>
+                </div>
                 <p>Master`s degree in Mathematics and got the qualification of Mathematician, Teacher of Mathematics</p>
             </li>
         </ul>

@@ -10,16 +10,16 @@ img{
     border-radius: 50%;
     width: 100%;
 }
-/* ul{
-    list-style: none;
-} */
+p{
+    margin: 5px;
+}
 a{
     text-decoration: none;
     color: #4B4B5A;
 }
 .main{
     display: flex;
-    width: 1000px;
+    width: 1200px;
     margin-left: auto;
     margin-top: 20px;
     margin-right: auto;
@@ -94,20 +94,26 @@ a{
 .about_me{
     line-height: 1.7;
 }
+.project_list{
+    list-style: none;
+}
 .project_item{
     display: flex;
     align-items: center;
     justify-content: space-between;
     line-height: 1;
 }
+.project_text{
+    font-size: 14px;
+}
 .my_work{
     display: flex;
     align-items: center;
     width: 50%;
     justify-content: space-between;
-    /* gap: 15px; */
 }
-.project_title{
-    font-size: 24px;
-    text-decoration: underline;
+
+.block{
+    display: flex;
+    gap: 30px;
 }
