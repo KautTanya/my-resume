@@ -11,7 +11,7 @@ img{
     width: 100%;
 }
 p{
-    margin: 5px;
+    margin: 10px;
 }
 a{
     text-decoration: none;
@@ -19,7 +19,7 @@ a{
 }
 .main{
     display: flex;
-    width: 1200px;
+    width: 1000px;
     margin-left: auto;
     margin-top: 20px;
     margin-right: auto;
@@ -80,6 +80,7 @@ a{
     font-size: 65px;
     font-weight: bold;
     letter-spacing: 2px;
+   
 }
 .main-info{
     padding: 10px;
@@ -90,6 +91,7 @@ a{
     font-style: italic;
     letter-spacing: 2px;
     font-weight: 600;
+    
 }
 .about_me{
     line-height: 1.7;
