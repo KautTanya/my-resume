@@ -111,15 +111,14 @@ border: none;
     text-decoration: underline;
     padding-left: 30px;
 }
-.achievement{
-    display: flex;
-    justify-content: center;
-
-}
 .work_list{
     margin-top: 5px;
     margin-bottom: 0;
+
     
+}
+.list{
+    padding-left: 70px;
 }
 .about_me{
     line-height: 1.7;
