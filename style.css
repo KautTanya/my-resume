@@ -34,14 +34,7 @@ a{
     padding: 20px;
     border-radius: 185px 185px 0 0;
 }
-/* .contact_list{
-    padding: 0;
-} */
-/* .contact_item{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-} */
+
 .contact_item:not(:last-child){
     margin-bottom: 10px;
 }
@@ -105,9 +98,6 @@ border: none;
     
 }
 .work_text{
-    /* padding-top: 0px;
-    padding-bottom: 0px; */
-    /* font-size: 14px; */
     text-decoration: underline;
     padding-left: 30px;
 }
